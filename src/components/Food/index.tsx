@@ -1,10 +1,10 @@
-import { Component, useState } from 'react';
+import { useState } from 'react';
 import { FiEdit3, FiTrash } from 'react-icons/fi';
 
 import { Container } from './styles';
 import api from '../../services/api';
 
-interface Food {
+interface FoodData {
   id: number;
   name: string;
   description: string;
@@ -14,8 +14,8 @@ interface Food {
 }
 
 interface FoodProps {
-  food: Food;
-  handleEditFood: (food: Food) => void;
+  food: FoodData;
+  handleEditFood: (food: FoodData) => void;
   handleDelete: (foodId: number) => void;
 }
 

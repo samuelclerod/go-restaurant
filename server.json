@@ -20,15 +20,15 @@
       "id": 3,
       "name": "A la Camarón",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
+      "price": "25.95",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     },
     {
-      "image": "https://th.bing.com/th/id/OIP._hY5b-d4pHHUZgeiJ__c_wHaEq?pid=ImgDet&rs=1",
-      "name": "Cheesebacon",
-      "price": "19,90",
-      "description": "Hambúrguer com queijo e bacon",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "La Camarón extra",
+      "price": "31.90",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares com camarão duplo",
       "available": true,
       "id": 4
     }
